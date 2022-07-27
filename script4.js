@@ -17,6 +17,7 @@ const handleSearch = () => {
     fetch(url)
         .then((res) => res.json())
         .then((data) => console.log(data));
+
 };
 //ekhn data ta inspact e showing
 //coldplay diye search dile ashbe
